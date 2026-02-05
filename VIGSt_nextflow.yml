@@ -1,0 +1,14 @@
+name: VIGSt_nextflow
+channels:
+  - bioconda
+dependencies:
+  - entrez-direct
+  - bioconda::fastp
+  - bioconda::fastplong
+  - bioconda::fastqc
+  - bioconda::multiqc
+  - bioconda::nanoplot
+  - bioconda::nextflow
+  - sra-tools
+
+prefix: "/data2/home/joaoc/miniforge3/envs/VIGSt_nextflow"
