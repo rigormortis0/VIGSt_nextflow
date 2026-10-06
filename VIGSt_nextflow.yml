@@ -1,14 +1,18 @@
-name: VIGSt_nextflow
+name: base
 channels:
   - bioconda
+  - conda-forge
 dependencies:
-  - entrez-direct
-  - bioconda::fastp
-  - bioconda::fastplong
-  - bioconda::fastqc
-  - bioconda::multiqc
-  - bioconda::nanoplot
-  - bioconda::nextflow
-  - sra-tools
+  - bioconda::bioconductor-deseq2==1.50.2
+  - conda==25.9.1
+  - mamba==2.3.3
+  - bioconda::orthofinder
+  - pip
+  - python=3.12
+  - pip:
+    - numpy==2.4.2
+    - pandas==3.0.0
+    - python-dateutil==2.9.0.post0
+    - six==1.17.0
 
-prefix: "/data2/home/joaoc/miniforge3/envs/VIGSt_nextflow"
+prefix: "/data2/home/joaoc/miniforge3"
