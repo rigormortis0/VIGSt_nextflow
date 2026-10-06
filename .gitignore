@@ -1,4 +1,5 @@
-/Scripts
+/Scripts/*
+!/Scripts/.gitkeep
 NOTES.md
 VIGSt.nf
 /.VIGSt.code-workspace
@@ -16,7 +17,7 @@ VIGSt.nf
 /Viroid_Viridiplantae_transcriptomic/
 /Viroid_Viridiplantae_transcriptomic_02/
 
-/Non_NCBI_Data_TranscriptomicSamples_PlantGenomes/samples/
+/Non_NCBI_Data_TranscriptomicSamples_PlantGenomes/samples/*
 /Non_NCBI_Data_TranscriptomicSamples_PlantGenomes/genomes/
 /Non_NCBI_Data_TranscriptomicSamples_PlantGenomes/other_genomes/
 
